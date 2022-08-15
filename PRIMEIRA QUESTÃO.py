@@ -1,15 +1,8 @@
 import random
 from time import sleep
-from tkinter import *
 cont = 1
 pontos = 0
 
-teste = Tk()
-teste.title('Show do Milhão!')
-teste.geometry('1000x700')
-teste.configure(background='#008')
-txt1=Label(teste,text="BEM VINDO AO SHOW DO MILHÃO!",background="#ff0",foreground='#000')#definindo um texto na interface
-txt1.place(x=10, y=10, width= 350,height=30) #colocando as dimensoes do texto dentro da interface
 
 print('\033[1m-='*20)
 print('     BEM VINDO AO SHOW DO MILHÃO!')
@@ -471,4 +464,3 @@ while cont <= 5:
 print(f'Sua pontuação foi de: {pontos}')
 
 
-teste.mainloop()
